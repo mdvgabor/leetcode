@@ -1,4 +1,4 @@
-def revers_string(s):
+def reverse_string(s):
     n = len(s)
     l = 0
     r = n - 1
@@ -10,4 +10,4 @@ def revers_string(s):
     
     return s
 
-print(revers_string(["h", "e", "l", "l", "o"]))
+print(reverse_string(["h", "e", "l", "l", "o"]))
